@@ -3,7 +3,7 @@ title: Request permissions for your Microsoft Teams tab
 description: How to update your app manifest in order to request access to native features that usually require user consent
 keywords: teams tabs development
 layout: LandingPage
-ms.date: 01/28/2019
+ms.date: 06/20/2019
 ---
 
 # Request permissions for your Microsoft Teams tab
@@ -26,6 +26,9 @@ Accessing a user’s device permissions allows you to build much richer experien
 * Use user location information to display relevant information
 
 While access to these features are standard in most modern web browsers, you need to let Teams know which features you’d like to use by updating your app manifest. This will allow you to ask for permissions, the same way you would in a browser, while your app is running on the Teams desktop client.
+
+> [!NOTE]
+> Device Permissions are currently not supported inside of [Task Modules](~/concepts/task-modules/task-modules-overview)
 
 ## Properties
 
